@@ -1,0 +1,112 @@
+.App{
+  font-family: Inter, sans-serif;
+  letter-spacing: -0.05em;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav{
+  height: 10vmin;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.1) ;
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.Nav > a{
+  color: red;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.Nav .nav--logo{
+  display: flex;
+  align-items: center;
+}
+
+.Nav .nav--icon{
+  font-size: 5vmin;
+}
+
+.Nav .nav--title{
+  margin: 0;
+  font-size: 2.5vmin;
+  font-weight: bolder;
+}
+
+section{
+  padding: 50px;
+}
+
+.Hero{
+  color: black;
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing: -0.1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero .hero--image{
+  max-width: 400px;
+}
+
+.Hero .hero--title{
+  font-size: 5vmin;
+  padding-top: 2vmin;
+  font-weight: bold;
+}
+
+.Hero .hero--subtitle{
+  font-size: 2vmin;
+}
+
+.card--container{
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.Card{
+  width: 35%;
+  height: 80vh;
+  position: relative;
+}
+
+.Card .card--title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Card .card--status{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background: rgb(231, 228, 228);
+  padding: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.Card .card--photo{
+  height: 500px;
+  width: 400px;
+  border-radius: 10%;
+}
+
+.gray{
+  color: grey;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.Card .card--star{
+  color: red;
+}
+
+.Card .card--title{
+  font-weight: bolder;
+}

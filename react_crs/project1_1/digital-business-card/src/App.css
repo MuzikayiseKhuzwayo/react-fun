@@ -1,0 +1,80 @@
+.App{
+  font-family: Inter, sans-serif;
+  letter-spacing: -0.05em;
+  background: black;
+  color: white;
+  width: 40%;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  
+}
+
+.Header{
+  height: 30vmin;
+  background: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main{
+  color: white;
+  text-align: center;
+}
+
+.Main .main--title{
+  font-size: 5vmin;
+  padding-top: 2vmin;
+}
+
+.Main .main--subtitle{
+  font-size: 2vmin;
+  color: grey;
+}
+
+.Main .main--buttons > a{
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.Main .main--email-button{
+  color: black;
+  background: white;
+}
+
+.Main .main--linkedin-button{
+  color: white;
+  background: rgb(86, 126, 179);
+}
+
+.about--title, .interests--title{
+  color: white;
+  font-size: 3vmin;
+}
+
+.about--content, .interests--content{
+  color: grey;
+  font-size: 1.6vmin;
+}
+
+.Footer .footer--grab{
+  text-align: center;
+  color: grey;
+}
+
+.Footer .footer--socials{
+  display: flex;
+  justify-content: center;
+}
+
+.Footer .footer--link{
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bolder;
+  color: white;
+  font-size: 3vmin;
+}

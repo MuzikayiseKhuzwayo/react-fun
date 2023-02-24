@@ -1,0 +1,75 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  font-family: Inter, sans-serif;
+}
+
+.Navbar{
+  display: flex;
+}
+
+.Navbar .header{
+  background: black;
+  color: lightgray;
+  width: 100%;
+  padding: 3vmin;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.Navbar .right-nav{
+  float: right;
+}
+
+.Navbar .nav-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+.Navbar .left-nav{
+  color: rgb(8, 255, 250);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.Main{
+  color: white;
+  width: 100%;
+  padding: 4vmin;
+}
+
+.Main .main--title{
+  font-size: 8vmin;
+  margin-top: 0;
+  letter-spacing: -0.05em;
+  padding-top: 2vmin;
+}
+
+.Main .main--list{
+  font-size: 2vmin;
+  line-height: 5vmin;
+}
+
+.Main .main--list >li::marker{
+  font-size: 2rem;
+  color:rgb(8, 255, 250);
+}

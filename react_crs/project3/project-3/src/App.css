@@ -1,0 +1,90 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  font-family:'Courier New', Courier, monospace;
+  align-items: center;
+}
+
+.Nav{
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(64, 1, 92), rgb(88, 13, 88));
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 5px ; 
+  position: fixed;
+}
+
+.Nav .nav--logo{
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 2vmin;
+  text-decoration: none;
+}
+
+.Nav .nav--icon{
+  font-size: 3.5vmin;
+  padding-right: 10px;
+}
+
+.Nav .nav--subtitle{
+  padding: 20px;
+  font-size: 1.5vmin;
+  margin-left: auto;
+  color: white;
+}
+
+.Main{
+  margin-top: 120px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.Main .form{
+  display: grid;
+  grid-template: 1fr 1fr / 30vw 30vw;
+  gap: 20px;
+}
+
+.Main .form .form--input{
+  font-family:'Courier New', Courier, monospace;
+  border-radius: 5px;
+  font-size: 2vmin;
+  text-indent: 10px;
+}
+
+.Main .form .form--button{
+  grid-column: 1 / -1;
+  background: linear-gradient(to right, rgb(64, 1, 92), rgb(88, 13, 88));
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 2vmin;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.Main .form .form--icon{
+  font-size: 2vmin;
+}
+
+.Main .form--image{
+  margin-top: 30px;
+  width: 62vw;
+  height: 50vh;
+}
+
+.flex{
+  display: flex;
+  padding: 10px;
+}
+
+.boo--box{
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 10px;
+}

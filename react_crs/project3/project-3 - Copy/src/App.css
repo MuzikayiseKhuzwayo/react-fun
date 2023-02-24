@@ -1,0 +1,22 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav{
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(94, 1, 134), rgb(109, 18, 109));
+  display: flex;
+  align-items: center;
+}
+
+.Nav .nav--logo{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.Nav .nav--icon{
+  font-size: 2vmin;
+}
